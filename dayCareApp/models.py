@@ -54,6 +54,7 @@ class Events(models.Model):
     EventTime = models.CharField(max_length=500)
     EventsAddress = models.CharField(max_length=1000)
     EventsCost = models.CharField(max_length=1000)
+    EventsDescription = models.CharField(max_length=1000)
     EventsSafety = models.CharField(max_length=1000)
 
 class EventRegisteration(models.Model):

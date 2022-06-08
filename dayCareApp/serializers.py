@@ -24,7 +24,7 @@ class ChildrensWorkSerializers(serializers.ModelSerializer):
 class EventsSerializers(serializers.ModelSerializer):
     class Meta:
         model = Events
-        fields=('EventId','EventsName','EventDate','EventTime','EventsAddress','EventsCost','EventsSafety')
+        fields=('EventId','EventsName','EventDate','EventTime','EventsAddress','EventsCost','EventsDescription','EventsSafety')
 
 class EventRegisterationSerializers(serializers.ModelSerializer):
     class Meta:
